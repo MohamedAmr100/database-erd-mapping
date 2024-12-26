@@ -1,0 +1,6 @@
+musician(id,name,st,city,phone)
+instrument(name,key)
+album(id,date,title,musician_id)
+song(title,author,album_id)
+musician_song(musician_id,song_title)
+musician_instrument(musician_id,instrument_name)

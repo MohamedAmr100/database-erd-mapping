@@ -1,0 +1,8 @@
+ward(id,name,nurse_id,nurse_name)
+patient(id,name,dob,ward_id,consultant_id)
+consultant(id,name)
+nurse(id,name,ward_id)
+drug(code,rec dosage)
+drug_alternative(code,brand)
+patient_examination(patient_id,consultant_id)
+patient_drugs_file(nurse_id,patient_id,drug_code,date,time,dosage)
